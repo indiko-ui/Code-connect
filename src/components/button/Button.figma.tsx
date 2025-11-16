@@ -16,7 +16,7 @@ figma.connect(
     props: {
       state: figma.enum("State", {
         Enabled: "enabled",
-        Hover: "focus",
+        Hover: "hover",
         Disabled: "disabled",
       }),
     },
