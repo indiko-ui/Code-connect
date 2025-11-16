@@ -6,6 +6,10 @@ export default defineConfig({
             figmaComponent: 'Button',
             source: './src/components/button/Button.codeconnect.tsx',
         },
+        {
+            figmaComponent: 'Textfield',
+            source: './src/components/textfield/Textfield.codeconnect.tsx',
+        },
     ],
     include: ['src/**/*.codeconnect.tsx'],
     exclude: ['node_modules'],
