@@ -6,14 +6,14 @@ figma.connect(
     Textfield,
     'https://www.figma.com/file/xGTfXooDmNwkKcrDJVWPdG/Code-connect?node-id=12-41',
     {
-        example: (props: { label: string; variant: 'Enabled' | 'Disabled' | 'Focused' }) => (
+        example: (props: { text: string; variant: 'Enabled' | 'Disabled' | 'Focused' }) => (
             <Textfield
-                label={props.label}
+                text={props.text}
                 variant={props.variant}
             />
         ),
         props: {
-            label: figma.string('Label'),
+            text: figma.string('Text'),
             variant: figma.enum('Variant', {
                 Enabled: 'Enabled',
                 Disabled: 'Disabled',
